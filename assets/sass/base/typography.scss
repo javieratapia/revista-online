@@ -1,0 +1,22 @@
+body {
+    font-family: $monospace;
+}
+
+.header__title {
+    font-size: $large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav__item a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.newsletter h2 {
+    font-size: $large;
+    }
+
+.group input, .group button {
+    font-size: $medium;
+}
