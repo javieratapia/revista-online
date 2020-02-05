@@ -2,7 +2,7 @@ body {
     font-family: $monospace;
 }
 
-.header__title {
+.nav__title {
     font-size: $large;
     font-weight: bold;
     text-transform: uppercase;
@@ -11,6 +11,9 @@ body {
 .nav__item a {
     text-decoration: none;
     text-transform: uppercase;
+}
+.news__body{
+    text-align: justify;
 }
 
 .newsletter h2 {

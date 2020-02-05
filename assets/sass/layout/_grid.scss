@@ -1,7 +1,62 @@
-/* Container
+.nav {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+/*.nav__title{
+    background-color: red;
+}    
+.nav__list{
+    background-color: green;
+}*/
+.nav__list li{
+    display: inline;
+}
+.main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+/*.aside {
+    background-color: blue;
+}*/
+.main__news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+/*.news{
+    background-color: yellow;
+    border-style: solid;   
+    
+}*/
+
+img{
+    width: 100%;
+}
+
+/*nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.main__news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+ Container
 ==========================================================================
-*/
+
 .container {
+    display: grid;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -25,7 +80,7 @@
     }
 //* Row
 /*==========================================================================
-*/
+
 .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -33,7 +88,7 @@
 
 //* Columns
 /*==========================================================================
-*/
+
 .col-xs-12 {
     grid-column: span 12
 }
@@ -187,3 +242,4 @@
         grid-column: span 1
     }
     }
+    */

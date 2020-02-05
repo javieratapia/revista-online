@@ -1,103 +1,78 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-
-.header {
-    width: 960px;
-    padding: 10px;
+.nav{
+    padding: 1vw;
     border-bottom: 1px solid $gray
 }
-
-.header__title {
-    display: inline-block;
-}
-
-.nav {
-    display: inline-block;
-    width: 840px;
+.nav__list {
     text-align: right;
 }
-
-
-
-.nav__input {
-    border-radius: 30px;
+.nav__input { 
+    border-radius: 1.875rem;
+}
+.nav__item {
+    display: inline;
+}
+h2{
+    margin-bottom: 0.6vw;
 }
 
-.main {
-    width: 960px;
-    margin: 0 auto;
+.main {    
+    margin: 0 5vw;
+    margin-top: 0.6vw;
 }
-
-.main__news {
-    width: 700px;
-    float: left;
-}
-
+ 
 .news {
-    width: 210px;
     display: inline-block;
-    margin: 5px;
     cursor: pointer;
-}
-
-.news__body img {
-    width: 210px;
-    height: 300px;
-}
-
-.news__body p {
-    padding: 5px 10px;
+    margin: 1vw;
 }
 
 .aside {
-    width: 220px;
+    margin-left: 5vw;;
     float: right;
 }
 
 .aside__about {
-    width: 220px;
     border-bottom: 1px solid $gray;
+    p{
+        margin-bottom: 1vw;;
+    }
 }
 
 .aside__tags {
     border-bottom: 1px solid $gray;
-
-
+    text-align: right;
+    padding-bottom: 0.6vw;;
     ul {
-        padding: 0;
-        list-style: none;
+        padding: 0;      
     }
 
-    ul li {
-        padding: 2px 4px;
-        background-color: $steel-blue;
-        margin-right: 1px;
-        color: $white;
+    ul li {        
+        background-color: $steel-blue;      
+        color: $white;  
+        display: inline;     
+    }
+    h2{
+        margin-top: 0.6vw;
+        text-align: left;
     }
 }
-.aside__news {
-    margin-bottom: 50px;
-    img {
-        width: 220px;
-        height: 200px;
+.aside__news{
+    *{
+      margin-top: 0.5vw;  
+      margin-bottom: 0.5vw;
     }
 }
+
 
 
 .newsletter {
-    width: 960px;
+
     background-color: $blue-white;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    
+        margin-top: 5vw;;
+        padding: 4vw;
+    
 
 }
 
@@ -105,7 +80,7 @@ body {
 .group button {
     display: inline-block;
     border-width: 0;
-    padding: 5px 10px;
+
 
 }
 
@@ -115,7 +90,7 @@ body {
 }
 
 .footer {
-    width: 960px;
-    margin: 0 auto;
+  
+    padding: 1vw;
     text-align: center;
 }
