@@ -11,6 +11,12 @@
 .nav__item {
     display: inline;
 }
+@media (max-width: 576px) {
+    .desaparece a{
+        display: none;
+        
+    }
+}
 h2{
     margin-bottom: 0.6vw;
 }
@@ -23,12 +29,26 @@ h2{
 .news {
     display: inline-block;
     cursor: pointer;
-    margin: 1vw;
+    @media (max-width: 576px) {
+        height: 50%;
+    }
+
+}
+.news__body{
+    
+    img{
+    @media (max-width: 576px) {
+        object-fit: cover;
+    }
+}
 }
 
 .aside {
     margin-left: 5vw;;
     float: right;
+    @media (max-width: 576px) {
+        display: none;
+    }
 }
 
 .aside__about {
